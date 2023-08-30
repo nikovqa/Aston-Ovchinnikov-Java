@@ -47,10 +47,9 @@ public class Main {
                 } catch (NumberFormatException e) {
                     return "В последовательности должны быть только целые числа";
                 }
-
             }
         }
-        return "Нет числа кратного 3";
+        return " ";
 
     }
         private static boolean isDigit (String input){
